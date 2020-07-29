@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgid"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/rose"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/txtid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgid"
+        android:text="Deschihen Lake"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        //android:layout_marginRight="400dp"
+
+        >
+    <TextView
+        android:id="@+id/txtid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtid"
+        android:text="Deschihen Lake"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+
+
+    />
+    <!--<TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="41"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/txtid1"
+        android:layout_below="@+id/imgid"/>-->
+    <ImageView
+        android:layout_marginLeft="150dp"
+
+        android:id="@+id/strid"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/icstar"
+        android:layout_toRightOf="@+id/txtid1"
+        android:layout_below="@+id/txtid"
+        />
+    <ImageView
+        android:id="@+id/phid"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/phone"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+     android:layout_marginRight="50dp"
+        android:layout_below="@id/txtid1"
+        />
+    <TextView
+        android:id="@+id/callid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/phid"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:id="@+id/nearid"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/near"
+        android:layout_below="@id/txtid1"
+        android:layout_toRightOf="@+id/phid"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+        <TextView
+            android:id="@+id/route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Route"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/nearid"
+            android:layout_toRightOf="@+id/callid"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            />
+    <ImageView
+        android:id="@+id/shareid"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/share"
+        android:layout_below="@id/txtid1"
+        android:layout_toRightOf="@+id/nearid"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/shareid"
+        android:layout_toRightOf="@+id/route"
+        android:layout_marginLeft="50dp"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+
+        android:layout_below="@id/callid"
+
+        android:layout_margin="10dp"
+
+
+
+/>
+
+
+
+
+
+</RelativeLayout>

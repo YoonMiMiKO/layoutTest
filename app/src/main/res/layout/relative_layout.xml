@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btnOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/btn1"
+        android:background="#FFE57F"
+        android:layout_marginStart="@dimen/dimen_4db"/>
+    <Button
+        android:id="@+id/btnTwo"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Two"
+        android:layout_below="@+id/btnOne"
+        android:layout_marginTop="@dimen/dimen_4db"/>
+
+    <Button
+        android:id="@+id/btnThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnOne"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@+id/btnTwo"
+        android:text="Three" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/rose"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/btnThree"
+        android:contentDescription="@string/description"
+        />
+
+
+</RelativeLayout>
